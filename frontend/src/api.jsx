@@ -1,4 +1,4 @@
-const BASE_URL = "https://appwrite.opencoursehub.online/api/v1";
+const BASE_URL = import.meta.env.VITE_SERVER_URL;
 // const BASE_URL = '/api/v1';
 
 async function fetchLocationByName(name) {
