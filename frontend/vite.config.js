@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/people",
+  base: "/unbundlingwater/client/",
   preview: {
     port: 4000,
   },

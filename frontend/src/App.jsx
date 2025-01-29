@@ -15,7 +15,7 @@ import PeopleContainer from "./pages/search/PeopleContainer";
 
 const App = () => {
   return (
-    <Router basename="/people">
+    <Router basename="/unbundlingwater/client">
       <RootLayout>
         <Routes>
           <Route path="/" element={<Homes />} />

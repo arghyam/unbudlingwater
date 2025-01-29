@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "./people",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
